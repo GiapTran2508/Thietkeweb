@@ -1,0 +1,67 @@
+/* Reset các giá trị mặc định của các phần tử */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Căn giữa tiêu đề trang */
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Kích thước và phông chữ cho tiêu đề */
+  h1 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(33, 33, 197)
+  }
+  
+  /* Khoảng cách giữa các phần tử chính */
+  main {
+    padding: 20px;
+  }
+  
+  /* Phông chữ và kích thước cho tiêu đề của mỗi phần */
+  h2 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    color: orange;
+  }
+  
+  /* Kích thước và căn giữa hình ảnh */
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Phông chữ và căn lề cho nội dung */
+  p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  /* Kích thước và biểu tượng cho các mục liên hệ */
+  ul li {
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  
+  /* Icon */
+  i {
+    margin-right: 5px;
+    color: #333333; /* Màu sắc tùy chọn */
+    font-size: 16px;
+  }
+  
+  /* Liên kết trong mục liên hệ */
+  ul li a {
+    color: #0f46c7; /* Màu sắc tùy chọn */
+    text-decoration: none;
+  }
