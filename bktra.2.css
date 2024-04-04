@@ -1,0 +1,105 @@
+.all{
+    width: 1000px;
+    margin: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #282626;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li.right-align {
+    float: right;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover:not(.active){
+    color:rgb(200, 17, 17);
+}
+ /* BASE */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .row-flex {
+    display: flex;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  .row1 {
+    width: 85%;
+  }
+  
+  .mr-2 {
+    margin-right: 2%;
+  }
+  
+  .mb-2 {
+    margin-bottom: 10px;
+  }
+  
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .col-1 {
+    width: 50%;
+  }
+  
+  .col-2 {
+    width: 27%;
+  }
+  
+  .col-3 {
+    width: 30%;
+  }
+  
+  .col-1 > div > a > h3 {
+    line-height: 45px;
+    color: black;
+  }
+  
+  .col-1 > div > a {
+    text-decoration: none;
+  }
+  
+  .col-1 > div > p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .col-2 a {
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 15px;
+    color: black;
+  }
