@@ -1,0 +1,110 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    margin-right: 20px; /* Khoảng cách giữa h1 và menu */
+}
+
+.header-content {
+    display: flex; /* Sử dụng flexbox để căn chỉnh theo hàng ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+nav {
+    background-color: #f2f2f2;
+    display: flex; /* Sử dụng flexbox để căn chỉnh theo hàng ngang */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    margin: 0 10px;
+}
+
+.signup {
+    margin-left: 3px; /* Dịch chuyển mục menu "signup" tới phía bên phải */
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+ color: #ce6a00;
+}
+.container{
+    width: 80%;
+    font-family: sans-serif;
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 350px;
+    padding-right: 10px;
+}
+.container_inner{
+    /* chia cột */
+    display: flex;
+/* tạo các khoảng cách đều nhau giữa các thành phần con bên trong */
+    justify-content: space-evenly;
+    
+}
+.block{
+    width:17%;
+    background-color: rgb(244, 243, 243);
+    border-radius: 5px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.block img{
+    width:100%;
+}
+.block a{
+    text-decoration: none;
+}
+.p{
+    text-align: center;
+}
+i {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.canh{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding-top:5px;
+}
+.do{
+    float: right;
+    padding-right: 10px;
+}
+.cach{
+    margin-top: 4px;
+}
